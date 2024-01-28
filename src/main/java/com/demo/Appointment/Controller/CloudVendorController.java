@@ -11,7 +11,7 @@ import com.demo.Appointment.Model.CloudVendor;
 
 @RestController
 @RequestMapping("/cloudvendor")
-public class CloudVendorAPIServices {
+public class CloudVendorController {
     CloudVendor cloudven;
 
     @GetMapping("{vendorId}")
