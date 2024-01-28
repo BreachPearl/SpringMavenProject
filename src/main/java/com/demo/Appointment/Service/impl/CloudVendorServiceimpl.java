@@ -2,10 +2,13 @@ package com.demo.Appointment.Service.impl;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.demo.Appointment.Model.CloudVendor;
 import com.demo.Appointment.Service.CloudVendorService;
 import com.demo.Appointment.repository.CloudVendorRepository;
 
+@Service
 public class CloudVendorServiceimpl implements CloudVendorService {
 
     CloudVendorRepository cloudVendorRepository;
